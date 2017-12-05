@@ -1,0 +1,91 @@
+@font-face{
+	font-family: dong;
+	src: url("https://googledrive.com/host/0B4JuX-J9lBN3bmt2VlBxaDZMdDA")format("woff");
+}
+.uil-rolling-css{
+	position: fixed;
+	top:20%;
+	left:45%;
+}
+html{
+	line-height: 1;
+	height: 100%;
+}
+body{
+	font-size: 16px;
+	background-color: #e1f5fe;
+	height: 100%;
+}
+.row{
+	background-color: white;
+}
+.row .col{
+	padding: 0;
+}
+.letter{
+	font-family: dong;
+	min-height: 20%;
+}
+.title{
+	height: 20%;
+	position: relative;
+}
+#hint{
+	display: none;
+}
+.col a{
+	margin-left: 5%
+}
+.effect{
+	height: 110%;
+	display: none;
+}
+.content{
+	display: none;
+	margin-top: -10%;
+	position: relative;
+}
+.text{
+	min-height: 90%;
+	padding-top: 20%;
+	padding-bottom: 10%;
+	padding-left: 20%;
+}
+.textEnd{
+	font-size: 20px;
+}
+.topSpace{
+	height: 40%;
+}
+.bg{
+	min-height: 100%;
+	min-width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.picture1{
+	background-image: url("https://googledrive.com/host/0B4JuX-J9lBN3akhYNVY3MGlFYzA");
+}
+.picture2{
+	background-image: url("https://googledrive.com/host/0B4JuX-J9lBN3UFd5OEpxVHdvLWM");
+}
+.picture3{
+	background-image: url("https://googledrive.com/host/0B4JuX-J9lBN3VmxXLW11cGpYbGs");
+}
+.picture4{
+	background-image: url("https://googledrive.com/host/0B4JuX-J9lBN3bHVJeVFKaVBEZm8");
+}
+.picture5{
+	background-image: url("https://googledrive.com/host/0B4JuX-J9lBN3SERMcERPdXZzMms");
+}
+.picture6{
+	background-image: url("https://googledrive.com/host/0B4JuX-J9lBN3S0x0al95azlYTzg");
+}
+.picture7{
+	background-image: url("https://googledrive.com/host/0B4JuX-J9lBN3R2VyNGEwMElYam8");
+}
+input[type=text].valid, input[type=text]:focus.valid{
+     border-bottom: 1px solid #26a69a; 
+     box-shadow: 0 1px 0 0 #26a69a; 
+}
